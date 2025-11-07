@@ -62,3 +62,40 @@ ADDCOLUMNS(
     "SemanaDoAno", WEEKNUM([Date], 2),
     "MesAnoOrdenacao", YEAR([Date]) * 100 + MONTH([Date])
 )
+
+---
+
+## 🔗 Relacionamentos do Modelo Estrela
+| Dimensão                       | Relacionamento | Chave      |
+| ------------------------------ | -------------- | ---------- |
+| D_Calendario → F_Vendas        | 1 : *          | Date       |
+| D_Produtos → F_Vendas          | 1 : *          | ID_Produto |
+| D_Produtos_Detalhes → F_Vendas | 1 : *          | ID_Produto |
+| D_Descontos → F_Vendas         | 1 : *          | ID_Produto |
+| D_Detalhes → F_Vendas          | 1 : *          | ID_Produto |
+
+---
+
+## 🧠 Aprendizados e Conceitos Aplicados
+
+Modelagem Dimensional (Star Schema)
+
+Criação de tabelas DAX (CALENDAR, ADDCOLUMNS, VAR, RETURN)
+
+Relacionamentos e cardinalidade
+
+Organização de tabelas fato e dimensão
+
+Ordenação de colunas com hierarquia de tempo
+
+Funções de Inteligência de Tempo (YTD, QTD, YoY)
+
+---
+
+
+## 🚀 Autor
+
+👤 Diego Marayo
+🎓 Estudante de Engenharia de Software e entusiasta de Data Analytics
+💼 Projeto desenvolvido para o Bootcamp DIO - Modelagem de Dados com Power BI
+
