@@ -62,6 +62,7 @@ ADDCOLUMNS(
     "SemanaDoAno", WEEKNUM([Date], 2),
     "MesAnoOrdenacao", YEAR([Date]) * 100 + MONTH([Date])
 )
+```
 
 ---
 
