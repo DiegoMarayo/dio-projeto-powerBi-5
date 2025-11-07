@@ -72,10 +72,13 @@ ADDCOLUMNS(
 | D_Calendario → F_Vendas        | 1 : *          | Date       |
 | D_Produtos → F_Vendas          | 1 : *          | ID_Produto |
 | D_Produtos_Detalhes → F_Vendas | 1 : *          | ID_Produto |
-| D_Descontos → F_Vendas         | 1 : *          | ID_Produto |
+| D_Descontos → F_Vendas         | * : *          | ID_Produto |
 | D_Detalhes → F_Vendas          | 1 : *          | ID_Produto |
 
 ---
+
+![Modelo Estrela](modelo_estrela.png)
+
 
 ## 🧠 Aprendizados e Conceitos Aplicados
 
