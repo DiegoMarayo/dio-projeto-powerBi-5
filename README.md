@@ -100,6 +100,8 @@ Funções de Inteligência de Tempo (YTD, QTD, YoY)
 ## 🚀 Autor
 
 👤 Diego Marayo
+
 🎓 Estudante de Engenharia de Software e entusiasta de Data Analytics
+
 💼 Projeto desenvolvido para o Bootcamp DIO - Modelagem de Dados com Power BI
 
